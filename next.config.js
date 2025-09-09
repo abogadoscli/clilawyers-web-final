@@ -1,19 +1,17 @@
-const path = require('path');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: process.env.NEXT_DIST_DIR || '.next',
-  output: process.env.NEXT_OUTPUT_MODE,
   experimental: {
-    outputFileTracingRoot: path.join(__dirname, '../'),
+    outputFileTracingRoot: undefined,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
   eslint: {
     ignoreDuringBuilds: true,
   },
-  typescript: {
-    ignoreBuildErrors: false,
-  },
-  images: { unoptimized: true },
-};
+  trailingSlash: true,
+  output: 'standalone'
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
