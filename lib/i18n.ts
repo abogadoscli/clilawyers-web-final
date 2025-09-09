@@ -11,29 +11,15 @@ export const languageNames = {
 
 export const defaultLanguage: Language = 'es';
 
+// Funciones simplificadas - no manipulan rutas
 export function getLanguageFromPath(pathname: string): Language {
-  const segments = pathname.split('/').filter(Boolean);
-  const possibleLang = segments[0] as Language;
-  return languages.includes(possibleLang) ? possibleLang : defaultLanguage;
+  return defaultLanguage; // No usamos rutas con prefijo de idioma
 }
 
 export function removeLanguageFromPath(pathname: string): string {
-  const segments = pathname.split('/').filter(Boolean);
-  const possibleLang = segments[0] as Language;
-  
-  if (languages.includes(possibleLang)) {
-    return '/' + segments.slice(1).join('/');
-  }
-  
   return pathname;
 }
 
 export function addLanguageToPath(pathname: string, language: Language): string {
-  const cleanPath = removeLanguageFromPath(pathname);
-  
-  if (language === defaultLanguage) {
-    return cleanPath || '/';
-  }
-  
-  return `/${language}${cleanPath === '/' ? '' : cleanPath}`;
+  return pathname;
 }

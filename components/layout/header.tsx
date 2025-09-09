@@ -25,9 +25,7 @@ export function Header() {
     { key: 'blog', href: '/blog' },
   ];
 
-  const getLangPath = (path: string) => {
-    return language === 'es' ? path : `/${language}${path}`;
-  };
+  // Usar rutas directas sin prefijos de idioma
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
@@ -37,7 +35,7 @@ export function Header() {
         <div className="flex h-24 items-center justify-between">
           {/* Logo */}
           <Link 
-            href={getLangPath('/')}
+            href="/"
             className="flex items-center space-x-4 hover-lift"
           >
             <div className="relative h-20 w-32">
@@ -57,7 +55,7 @@ export function Header() {
               {/* Home Icon */}
               <li>
                 <Link
-                  href={getLangPath('/')}
+                  href="/"
                   className="relative text-sm font-semibold text-gray-800 hover:text-gray-900 transition-all duration-300 group py-2 flex items-center"
                 >
                   <Home className="h-5 w-5" />
@@ -69,7 +67,7 @@ export function Header() {
               {navItems.map((item) => (
                 <li key={item.key}>
                   <Link
-                    href={getLangPath(item.href)}
+                    href={item.href}
                     className="relative text-sm font-semibold text-gray-800 hover:text-gray-900 transition-all duration-300 group py-2"
                   >
                     <span className="relative z-10">
@@ -121,7 +119,7 @@ export function Header() {
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200">
               {/* Home Icon */}
               <Link
-                href={getLangPath('/')}
+                href="/"
                 className="flex items-center px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 rounded-md transition-colors duration-200"
                 onMouseEnter={(e) => e.currentTarget.style.color = '#961a19'}
                 onMouseLeave={(e) => e.currentTarget.style.color = '#374151'}
@@ -134,7 +132,7 @@ export function Header() {
               {navItems.map((item) => (
                 <Link
                   key={item.key}
-                  href={getLangPath(item.href)}
+                  href={item.href}
                   className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 rounded-md transition-colors duration-200"
                   onMouseEnter={(e) => e.currentTarget.style.color = '#961a19'}
                   onMouseLeave={(e) => e.currentTarget.style.color = '#374151'}

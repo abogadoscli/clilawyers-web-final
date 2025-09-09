@@ -11,8 +11,10 @@ export function LanguageSelector() {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleLanguageChange = (newLanguage: Language) => {
+    console.log('🌍 CAMBIANDO IDIOMA DE:', language, 'A:', newLanguage);
     setLanguage(newLanguage);
     setIsOpen(false);
+    console.log('🔄 Selector cerrado, idioma actualizado');
   };
 
   return (
