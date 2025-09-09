@@ -1,8 +1,8 @@
 
 // API de contacto simplificada - redirige a mailto
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 
-export async function POST(request) {
+export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     const { name, email, message, phone, service } = body;
