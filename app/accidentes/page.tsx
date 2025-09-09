@@ -149,7 +149,7 @@ export default function AccidentesPage() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="https://cdn.abacus.ai/images/8fe88724-cbb2-4df7-95d1-a7842d129951.png"
+            src="https://cdn.abacus.ai/images/a1352a16-9f15-4aa4-928c-b558825916ef.png"
             alt="Accidentes e Indemnizaciones"
             fill
             className="object-cover"
@@ -301,7 +301,7 @@ export default function AccidentesPage() {
           <div className="order-1 lg:order-2">
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden luxury-shadow hover-lift">
               <Image
-                src="https://cdn.abacus.ai/images/2c202214-41dd-4440-b1bd-fad57e5bb411.png"
+                src="https://cdn.abacus.ai/images/92cb9622-3291-4b90-80d2-223d00f40c04.png"
                 alt="Consulta Legal Especializada en Accidentes"
                 fill
                 className="object-cover"

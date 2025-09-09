@@ -107,7 +107,7 @@ export default function HomePage() {
         {/* Background Image with Sophisticated Overlay */}
         <div className="absolute inset-0">
           <Image
-            src="https://cdn.abacus.ai/images/fa89f33b-1d2a-413f-98d6-2fe72427de06.png"
+            src="https://cdn.abacus.ai/images/0421f334-0318-411e-84d9-74352fefd2bb.png"
             alt="Ultra-Professional Law Firm Office"
             fill
             className="object-cover"
@@ -252,15 +252,15 @@ export default function HomePage() {
             // Map category images
             const getImageForCategory = (categoryId: string) => {
               const imageMap = {
-                'accidentes': "https://cdn.abacus.ai/images/8fe88724-cbb2-4df7-95d1-a7842d129951.png",
-                'bancario': "https://cdn.abacus.ai/images/b7aaa265-94b9-48d8-90fe-0ea2121af5a8.png",
-                'corporativo': "https://cdn.abacus.ai/images/c07fc7f5-1d0e-4cca-b5ac-dac8c05bd209.png",
-                'laboral': "https://cdn.abacus.ai/images/adf189f1-87c8-4d97-84ba-b887c9cc56fa.png",
-                'civil': "https://cdn.abacus.ai/images/adf189f1-87c8-4d97-84ba-b887c9cc56fa.png",
+                'accidentes': "https://cdn.abacus.ai/images/a1352a16-9f15-4aa4-928c-b558825916ef.png",
+                'bancario': "https://cdn.abacus.ai/images/0c818652-6885-4c36-ae82-11c01d89e6b3.png",
+                'corporativo': "https://cdn.abacus.ai/images/0b060533-dc86-4441-a46b-801110185013.png",
+                'laboral': "https://cdn.abacus.ai/images/e3855c46-6181-4ce8-8ad5-0e059a9c98e6.png",
+                'civil': "https://cdn.abacus.ai/images/e3855c46-6181-4ce8-8ad5-0e059a9c98e6.png",
                 'penal': "https://static.vecteezy.com/system/resources/previews/052/543/862/non_2x/law-and-justice-court-of-law-scales-of-justice-judge-s-gavel-legal-books-professional-courtroom-photo.jpg",
-                'inmobiliario': "https://cdn.abacus.ai/images/6191e8e2-e1e8-4f73-b31a-c42b16d2d968.png",
-                'extranjeria': "https://cdn.abacus.ai/images/6c803883-eadc-4d32-bded-83d9e363a79f.png",
-                'otros': "https://cdn.abacus.ai/images/9739c138-18af-4e2a-9c3f-16213c5a39c4.png"
+                'inmobiliario': "https://cdn.abacus.ai/images/bb82559b-785d-4929-9b74-c96d1fd10c31.png",
+                'extranjeria': "https://cdn.abacus.ai/images/ea13a35b-cfd3-43eb-9808-692d2b0b2db1.png",
+                'otros': "https://cdn.abacus.ai/images/1d631e2a-53fe-4ac9-a5fb-a24655cf7289.png"
               };
               return imageMap[categoryId as keyof typeof imageMap] || imageMap['otros'];
             };
@@ -331,7 +331,7 @@ export default function HomePage() {
         {/* Sophisticated Background with Boardroom Image */}
         <div className="absolute inset-0">
           <Image
-            src="https://cdn.abacus.ai/images/cdae71f7-f47a-46a4-9cba-b047c58ac4cb.png"
+            src="https://cdn.abacus.ai/images/2e18d451-e44c-43e2-9723-3971faa579d5.png"
             alt="Executive Boardroom"
             fill
             className="object-cover"
@@ -487,7 +487,7 @@ export default function HomePage() {
           <div className="order-1 lg:order-2">
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden luxury-shadow hover-lift">
               <Image
-                src="https://cdn.abacus.ai/images/2c202214-41dd-4440-b1bd-fad57e5bb411.png"
+                src="https://cdn.abacus.ai/images/92cb9622-3291-4b90-80d2-223d00f40c04.png"
                 alt="Consulta Legal Profesional"
                 fill
                 className="object-cover"
@@ -511,7 +511,7 @@ export default function HomePage() {
         {/* International Cities Background */}
         <div className="absolute inset-0">
           <Image
-            src="https://cdn.abacus.ai/images/29302e39-2624-42a8-a9d2-4ab2961a090c.png"
+            src="https://cdn.abacus.ai/images/6ea38721-119d-45d9-b710-1277674e38a4.png"
             alt="Madrid and Beijing International Presence"
             fill
             className="object-cover"
@@ -546,7 +546,7 @@ export default function HomePage() {
             {offices.map((office, index) => {
               const officeImages = [
                 "https://upload.wikimedia.org/wikipedia/commons/c/c6/At_Palmetum_de_Santa_Cruz_de_Tenerife_2022_028.jpg", // Santa Cruz de Tenerife
-                "https://cdn.abacus.ai/images/bc20ff83-2af6-4224-af04-016ca45ebdfc.png"  // Tianjin
+                "https://cdn.abacus.ai/images/ccc230b1-1383-4147-81ce-7eb8885688b0.png"  // Tianjin
               ];
               
               return (
@@ -647,7 +647,7 @@ export default function HomePage() {
         {/* Sophisticated Background with Scales of Justice */}
         <div className="absolute inset-0">
           <Image
-            src="https://cdn.abacus.ai/images/5951e5d8-cd35-49f8-a0d4-51b118e2fc35.png"
+            src="https://cdn.abacus.ai/images/1d631e2a-53fe-4ac9-a5fb-a24655cf7289.png"
             alt="Elegant Scales of Justice"
             fill
             className="object-cover"

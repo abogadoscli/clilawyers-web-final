@@ -238,7 +238,7 @@ export default function AboutPage() {
           <div className="relative">
             <div className="relative h-96 w-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://cdn.abacus.ai/images/35a905e7-0423-438d-a3a7-1ec1141f75e8.png"
+                src="https://cdn.abacus.ai/images/2e18d451-e44c-43e2-9723-3971faa579d5.png"
                 alt="Modern law firm office interior"
                 fill
                 className="object-cover"
@@ -255,7 +255,7 @@ export default function AboutPage() {
           <div className="relative lg:order-1">
             <div className="relative h-96 w-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://cdn.abacus.ai/images/adf189f1-87c8-4d97-84ba-b887c9cc56fa.png"
+                src="https://cdn.abacus.ai/images/e3855c46-6181-4ce8-8ad5-0e059a9c98e6.png"
                 alt="Professional legal team working together"
                 fill
                 className="object-cover"
@@ -380,7 +380,7 @@ export default function AboutPage() {
           {offices.map((office, index) => {
             const officeImages = [
               "https://upload.wikimedia.org/wikipedia/commons/c/c6/At_Palmetum_de_Santa_Cruz_de_Tenerife_2022_028.jpg", // Santa Cruz de Tenerife
-              "https://cdn.abacus.ai/images/bc20ff83-2af6-4224-af04-016ca45ebdfc.png"  // Tianjin
+              "https://cdn.abacus.ai/images/ccc230b1-1383-4147-81ce-7eb8885688b0.png"  // Tianjin
             ];
             
             return (

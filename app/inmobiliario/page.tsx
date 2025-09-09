@@ -185,7 +185,7 @@ export default function InmobiliarioPage() {
         <div className="absolute inset-0">
           <div className="relative h-full w-full">
             <Image
-              src="https://cdn.abacus.ai/images/6191e8e2-e1e8-4f73-b31a-c42b16d2d968.png"
+              src="https://cdn.abacus.ai/images/bb82559b-785d-4929-9b74-c96d1fd10c31.png"
               alt="Modern real estate and legal services"
               fill
               className="object-cover opacity-30"
@@ -359,7 +359,7 @@ export default function InmobiliarioPage() {
         <div className="absolute inset-0">
           <div className="relative h-full w-full">
             <Image
-              src="https://cdn.abacus.ai/images/6191e8e2-e1e8-4f73-b31a-c42b16d2d968.png"
+              src="https://cdn.abacus.ai/images/bb82559b-785d-4929-9b74-c96d1fd10c31.png"
               alt="Professional real estate consultation"
               fill
               className="object-cover opacity-20"

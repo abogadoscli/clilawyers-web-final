@@ -89,14 +89,14 @@ export default function ServicesPage() {
         // Map category background images with new order (penal and inmobiliario before otros)
         const getImageForCategory = (categoryId: string) => {
           const imageMap = {
-            'accidentes': "https://cdn.abacus.ai/images/8fe88724-cbb2-4df7-95d1-a7842d129951.png",
-            'bancario': "https://cdn.abacus.ai/images/b7aaa265-94b9-48d8-90fe-0ea2121af5a8.png",
-            'corporativo': "https://cdn.abacus.ai/images/c07fc7f5-1d0e-4cca-b5ac-dac8c05bd209.png",
-            'laboral': "https://cdn.abacus.ai/images/adf189f1-87c8-4d97-84ba-b887c9cc56fa.png",
-            'civil': "https://cdn.abacus.ai/images/adf189f1-87c8-4d97-84ba-b887c9cc56fa.png",
+            'accidentes': "https://cdn.abacus.ai/images/a1352a16-9f15-4aa4-928c-b558825916ef.png",
+            'bancario': "https://cdn.abacus.ai/images/0c818652-6885-4c36-ae82-11c01d89e6b3.png",
+            'corporativo': "https://cdn.abacus.ai/images/0b060533-dc86-4441-a46b-801110185013.png",
+            'laboral': "https://cdn.abacus.ai/images/e3855c46-6181-4ce8-8ad5-0e059a9c98e6.png",
+            'civil': "https://cdn.abacus.ai/images/e3855c46-6181-4ce8-8ad5-0e059a9c98e6.png",
             'penal': "https://static.vecteezy.com/system/resources/previews/052/543/862/non_2x/law-and-justice-court-of-law-scales-of-justice-judge-s-gavel-legal-books-professional-courtroom-photo.jpg",
-            'inmobiliario': "https://cdn.abacus.ai/images/6191e8e2-e1e8-4f73-b31a-c42b16d2d968.png",
-            'otros': "https://cdn.abacus.ai/images/9739c138-18af-4e2a-9c3f-16213c5a39c4.png"
+            'inmobiliario': "https://cdn.abacus.ai/images/bb82559b-785d-4929-9b74-c96d1fd10c31.png",
+            'otros': "https://cdn.abacus.ai/images/1d631e2a-53fe-4ac9-a5fb-a24655cf7289.png"
           };
           return imageMap[categoryId as keyof typeof imageMap] || imageMap['otros'];
         };
@@ -233,7 +233,7 @@ export default function ServicesPage() {
         <div className="absolute inset-0">
           <div className="relative h-full w-full">
             <Image
-              src="https://cdn.abacus.ai/images/58192840-3429-4ec2-8bd6-c00d758b5189.png"
+              src="https://cdn.abacus.ai/images/2e18d451-e44c-43e2-9723-3971faa579d5.png"
               alt="Professional legal consultation"
               fill
               className="object-cover opacity-30"
