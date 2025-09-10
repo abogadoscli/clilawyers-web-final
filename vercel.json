@@ -2,6 +2,5 @@
   "framework": "nextjs",
   "buildCommand": "cd app && yarn build",
   "outputDirectory": "app/.next",
-  "installCommand": "cd app && yarn install",
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./app"
+  "installCommand": "cd app && yarn install"
 }
