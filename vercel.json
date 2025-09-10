@@ -1,6 +1,16 @@
 {
-  "framework": "nextjs",
-  "buildCommand": "cd app && yarn build",
-  "outputDirectory": "app/.next",
-  "installCommand": "cd app && yarn install"
+  "version": 2,
+  "builds": [
+    {
+      "src": "app/package.json",
+      "use": "@vercel/next",
+      "config": {}
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/app/$1"
+    }
+  ]
 }
